@@ -1,0 +1,40 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Simple Save System",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"DEMO (you may delete this)","folderPath":"folders/Simple Save System/DEMO (you may delete this).yy","name":"DEMO (you may delete this)","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Simple Save System","folderPath":"folders/Simple Save System.yy","name":"Simple Save System","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.14.4.222",
+  },
+  "name":"Simple Save System",
+  "resources":[
+    {"id":{"name":"HOW_TO_USE","path":"notes/HOW_TO_USE/HOW_TO_USE.yy",},},
+    {"id":{"name":"obj_DEMO","path":"objects/obj_DEMO/obj_DEMO.yy",},},
+    {"id":{"name":"obj_simple_save_system","path":"objects/obj_simple_save_system/obj_simple_save_system.yy",},},
+    {"id":{"name":"rm_DEMO","path":"rooms/rm_DEMO/rm_DEMO.yy",},},
+    {"id":{"name":"scr_simple_save_system","path":"scripts/scr_simple_save_system/scr_simple_save_system.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"rm_DEMO","path":"rooms/rm_DEMO/rm_DEMO.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}

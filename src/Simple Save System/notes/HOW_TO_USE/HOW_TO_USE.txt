@@ -1,0 +1,72 @@
+================================================
+               SIMPLE SAVE SYSTEM
+================================================
+           Developed & Maintained by:
+               Sheep Studios, LLC
+            https://sheepstudios.net
+================================================
+
+Saving and loading has never been so easy!
+
+------------------------------------------------
+				  HOW TO USE
+------------------------------------------------
+
+1. OPEN THE SCRIPT:
+   Find 'scr_simple_save_system'.
+
+2. DEFINE YOUR DATA:
+   Locate the "SAVE" struct (Line 14).
+   Add your variables here. These are your
+   starting "default" values.
+
+3. THAT'S IT!
+   The system handles everything else in 
+   the background.
+
+------------------------------------------------
+				 SAMPLE SETUP
+------------------------------------------------
+
+[ STEP A: Define in Script ]
+----------------------------
+SAVE = {
+    gems: 0	// <- THIS is your default value
+};
+
+
+[ STEP B: Use Anywhere ]
+------------------------
+// In a Collision Event:
+SAVE.gems += 1;
+
+// In a Shop UI:
+if (SAVE.gems >= 10) {
+    SAVE.gems -= 10;
+}
+
+------------------------------------------------
+					PRO TIPS
+------------------------------------------------
+
+• AUTO-SAVE: Saves every 3 seconds (by default)
+  if changes are detected.
+  
+• MANUAL SAVING: Use save_game() to save earlier
+  if you require.
+  
+• ENCRYPTION: Uses Base64 to keep  data safe
+  from simple editing.
+
+------------------------------------------------
+				  GETTING HELP
+------------------------------------------------
+
+Found a bug or have a question? Visit our
+GitHub repo!
+
+github.com/Sheep-Studios/SimpleSaveSystem/issues
+
+================================================
+				HAPPY CODING! <3
+================================================
