@@ -1,4 +1,4 @@
-# 🐑 SIMPLE SAVE SYSTEM
+<img width="1140" height="360" alt="Banner" src="https://github.com/user-attachments/assets/7a6eada2-bfa4-4b27-9605-27895c897a29" />
 
 **Developed & Maintained by Sheep Studios**
 
@@ -10,9 +10,13 @@ Saving and loading has never been so easy! This system is designed to be a "plug
 
 ## 🛠️ HOW TO USE
 
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/a6f3f211-369c-4497-abd8-f8297184d734" />
+
 1.  **OPEN THE SCRIPT:** Find `scr_simple_save_system`.
 2.  **DEFINE YOUR DATA:** Locate the `SAVE` struct (Line 14) and add your variables. These represent your starting "default" values.
 4.  **THAT'S IT!** The system handles everything else in the background.
+
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/ddf3415e-79fd-47e6-8017-96c88c3e8130" />
 
 ---
 
